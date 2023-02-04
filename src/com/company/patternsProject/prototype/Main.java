@@ -5,7 +5,7 @@ package com.company.patternsProject.prototype;
  */
 public class Main {
     public static void main(String[] args) {
-        Cow cow = new Cow("Буренка69", 224, 4);
+        Cow cow = new Cow("Буренка69", 228, 4);
         System.out.println(cow + "\n");
         //Простое клонирование. Есть минус: без приведения типа не работает
         Cow cow1 = (Cow) cow.copy();
