@@ -1,7 +1,8 @@
 package com.company.myExeption;
 
 public class WordLengthException extends Exception{
-    private int dif;
+    private static final long serialVersionUID = -7373667158376399207L;
+    private final int dif;
 
     public WordLengthException(String message, int dif) {
         super(message + dif);

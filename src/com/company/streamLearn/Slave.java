@@ -10,7 +10,7 @@ public class Slave {
     private int id;
     private int age;
     private Post role;
-
+    
     @Override
     public String toString() {
         return "Имя " + name +
